@@ -12,6 +12,7 @@
 		D0EB17B22A1E2DAF00C03F0C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EB17B12A1E2DAF00C03F0C /* ViewController.swift */; };
 		D0EB17B72A1E2DB000C03F0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0EB17B62A1E2DB000C03F0C /* Assets.xcassets */; };
 		D0EB17BA2A1E2DB000C03F0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0EB17B82A1E2DB000C03F0C /* LaunchScreen.storyboard */; };
+		D0EB17CF2A1E34BC00C03F0C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EB17CE2A1E34BC00C03F0C /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		D0EB17B62A1E2DB000C03F0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0EB17B92A1E2DB000C03F0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0EB17BB2A1E2DB000C03F0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0EB17CE2A1E34BC00C03F0C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		D0EB17AC2A1E2DAF00C03F0C /* Diary of feelings - drop your feelings according to the cloud village */ = {
 			isa = PBXGroup;
 			children = (
+				D0EB17CC2A1E349E00C03F0C /* Screen */,
 				D0EB17AD2A1E2DAF00C03F0C /* AppDelegate.swift */,
 				D0EB17AF2A1E2DAF00C03F0C /* SceneDelegate.swift */,
 				D0EB17B12A1E2DAF00C03F0C /* ViewController.swift */,
@@ -62,6 +65,22 @@
 				D0EB17BB2A1E2DB000C03F0C /* Info.plist */,
 			);
 			path = "Diary of feelings - drop your feelings according to the cloud village";
+			sourceTree = "<group>";
+		};
+		D0EB17CC2A1E349E00C03F0C /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				D0EB17CD2A1E34AC00C03F0C /* Home */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		D0EB17CD2A1E34AC00C03F0C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				D0EB17CE2A1E34BC00C03F0C /* HomeViewController.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +156,7 @@
 				D0EB17B22A1E2DAF00C03F0C /* ViewController.swift in Sources */,
 				D0EB17AE2A1E2DAF00C03F0C /* AppDelegate.swift in Sources */,
 				D0EB17B02A1E2DAF00C03F0C /* SceneDelegate.swift in Sources */,
+				D0EB17CF2A1E34BC00C03F0C /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
