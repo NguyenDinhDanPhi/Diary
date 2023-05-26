@@ -75,13 +75,13 @@
 			isa = PBXGroup;
 			children = (
 				D0EB17D42A1E36BC00C03F0C /* App */,
-				D0EB17CC2A1E349E00C03F0C /* Screen */,
 				D0EB17AD2A1E2DAF00C03F0C /* AppDelegate.swift */,
-				D0EB17AF2A1E2DAF00C03F0C /* SceneDelegate.swift */,
-				D0EB17B12A1E2DAF00C03F0C /* ViewController.swift */,
 				D0EB17B62A1E2DB000C03F0C /* Assets.xcassets */,
-				D0EB17B82A1E2DB000C03F0C /* LaunchScreen.storyboard */,
 				D0EB17BB2A1E2DB000C03F0C /* Info.plist */,
+				D0EB17B82A1E2DB000C03F0C /* LaunchScreen.storyboard */,
+				D0EB17AF2A1E2DAF00C03F0C /* SceneDelegate.swift */,
+				D0EB17CC2A1E349E00C03F0C /* Screen */,
+				D0EB17B12A1E2DAF00C03F0C /* ViewController.swift */,
 			);
 			path = "Diary of feelings - drop your feelings according to the cloud village";
 			sourceTree = "<group>";
